@@ -1,0 +1,6 @@
+<li>
+  <h2>{{#link-to 'article' article.id}}{{article.headline}}{{/link-to}}</h2>
+  <p>by</p>
+  <h5>{{article.authors}}</h5>
+  {{#link-to 'article' article.id}}<img src={{article.image}} alt={{article.headline}}>{{/link-to}}
+</li>

@@ -1,0 +1,9 @@
+<h1>Bustle!</h1>
+
+<ul>
+  {{#each model as |article|}}
+    {{article-tile article=article}}
+  {{/each}}
+</ul>
+
+{{#link-to 'admin'}}Admin Only{{/link-to}}
